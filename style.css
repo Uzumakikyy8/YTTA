@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    flex: 1;
+    background-color: rgb(255, 251, 251);
+}
+img{
+    display: block;
+    width: 100px;
+}
+li{list-style-type: none;
+    display: flex;
+}
+.nc2{
+    display: flex;
+    gap: 15px;
+}
+body{background-color: rgb(0, 0, 0);}
+
