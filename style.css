@@ -1,10 +1,14 @@
-.nav {
+.mav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 20px;
     flex: 1;
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(253, 247, 247);
+}
+.nc2{
+    display: flex;
+    gap: 50px;
 }
 img{
     display: block;
@@ -13,9 +17,8 @@ img{
 li{list-style-type: none;
     display: flex;
 }
-.nc2{
-    display: flex;
-    gap: 15px;
+.lfc img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
-body{background-color: rgb(0, 0, 0);}
-
