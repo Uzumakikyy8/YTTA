@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    flex: 1;
+    background-color: rgb(7, 7, 201);
+}
+.nc2{
+    display: flex;
+    gap: 50px;
+}
+img{
+    display: block;
+    width: 100px;
+}
+li{list-style-type: none;
+    display: flex;
+}
+.lfc img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.gns {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+.gns h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.gns p {
+    font-size: 20px;
+}
+.Kata {
+    padding: 40px 20px;
+    min-height: 500px;
+}
