@@ -4,7 +4,7 @@
     align-items: center;
     padding: 12px 20px;
     flex: 1;
-    background-color: rgb(7, 7, 201);
+    background-color: rgb(255, 255, 255);
 }
 .nc2{
     display: flex;
@@ -28,8 +28,9 @@ li{list-style-type: none;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
-    text-align: center;
-    color: rgb(2, 2, 2);
+    text-align: left;
+    color: rgb(255, 246, 246);
+    margin-top: 300px;
 }
 .gns h1 {
     font-size: 40px;
@@ -41,4 +42,21 @@ li{list-style-type: none;
 .Kata {
     padding: 40px 20px;
     min-height: 500px;
+}
+.pbb {
+    padding: 25px;
+    font-size: 18px;
+    color: rgb(0, 17, 255);
+    line-height: 1.8;
+}
+.pbb a {
+    color: rgb(73, 63, 63);
+    font-weight: bold;
+}
+.baner {
+    width:50%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+    margin-top: 20px;
 }
